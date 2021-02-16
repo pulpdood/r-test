@@ -13,9 +13,6 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 hello <- function() {
-  install.packages("tidyverse")
-  install.packages("ggpubr")
-
   library(tidyverse)
   library(ggpubr)
   theme_set(
